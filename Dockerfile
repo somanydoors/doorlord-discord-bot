@@ -4,3 +4,4 @@ RUN pip install \
     py-cord \
     sqlalchemy \
     asyncpg
+COPY --chmod=755 bot.py /
